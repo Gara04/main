@@ -1,0 +1,162 @@
+Here’s a comprehensive list of SQL (Structured Query Language) topics, which are foundational for working with relational databases, and ideal for certification preparation, mastering database queries, and improving your SQL skills.
+
+📝 1. SQL Basics
+What is SQL? Introduction to relational databases
+
+SQL Syntax: Keywords, Statements, Clauses
+
+SQL Data Types: INT, VARCHAR, DATE, BOOLEAN, etc.
+
+SQL Comments: Single-line and multi-line comments
+
+🔄 2. Data Retrieval (Queries)
+SELECT Statement: Basic SELECT, * (all columns)
+
+DISTINCT: Removing duplicates
+
+WHERE Clause: Filtering rows with conditions
+
+AND, OR, NOT: Combining conditions
+
+ORDER BY: Sorting results (ASC, DESC)
+
+LIMIT / OFFSET: Limiting the number of rows returned (for pagination)
+
+IN, BETWEEN, LIKE, IS NULL: Complex conditions
+
+🔢 3. Aggregate Functions
+COUNT(): Counting rows
+
+SUM(), AVG(): Calculating totals and averages
+
+MIN(), MAX(): Finding minimum and maximum values
+
+GROUP BY: Grouping data by one or more columns
+
+HAVING: Filtering grouped data
+
+COUNT(DISTINCT): Counting distinct values
+
+➕ 4. Data Manipulation (DML)
+INSERT INTO: Adding new rows to a table
+
+UPDATE: Modifying existing rows
+
+DELETE: Removing rows from a table
+
+TRUNCATE: Removing all rows (without logging individual row deletions)
+
+🔧 5. Data Definition (DDL)
+CREATE TABLE: Defining a new table structure
+
+ALTER TABLE: Modifying an existing table (adding/removing columns)
+
+DROP TABLE: Deleting a table
+
+CREATE INDEX: Speeding up data retrieval
+
+DROP INDEX: Removing an index
+
+TRUNCATE: Removing all data from a table (but keeps structure)
+
+🔗 6. Joins and Relationships
+INNER JOIN: Returning rows that match in both tables
+
+LEFT JOIN (LEFT OUTER JOIN): Returning all rows from the left table, matched with the right table
+
+RIGHT JOIN (RIGHT OUTER JOIN): Returning all rows from the right table, matched with the left table
+
+FULL OUTER JOIN: Returning all rows when there is a match in one of the tables
+
+CROSS JOIN: Producing a Cartesian product of two tables
+
+SELF JOIN: Joining a table with itself
+
+🎯 7. Subqueries
+Subquery in SELECT: Using a subquery to filter results
+
+Subquery in WHERE: Using a subquery in the WHERE clause
+
+Subquery in FROM: Using a subquery as a derived table
+
+Correlated Subqueries: Subqueries that reference outer query columns
+
+Exists vs. IN: Checking for the existence of rows
+
+📑 8. Set Operations
+UNION: Combining results of two queries (removes duplicates)
+
+UNION ALL: Combining results of two queries (includes duplicates)
+
+INTERSECT: Returning common records from two queries
+
+EXCEPT: Returning records from the first query that are not in the second
+
+📅 9. Date and Time Functions
+CURRENT_DATE, CURRENT_TIME, CURRENT_TIMESTAMP
+
+DATEADD(), DATEDIFF(): Adding/subtracting dates
+
+EXTRACT(): Extracting parts of a date (year, month, day)
+
+FORMAT(): Formatting date and time
+
+NOW(): Current date and time
+
+DAY(), MONTH(), YEAR(): Extracting date components
+
+🛠️ 10. Indexing and Performance
+Indexes: Types (unique, composite), creation, advantages, and disadvantages
+
+EXPLAIN: Viewing query execution plans
+
+Query Optimization: Using indexes, avoiding SELECT *, limiting subqueries
+
+Normalization: Breaking down large tables into smaller related ones
+
+Denormalization: Merging tables to reduce joins and improve performance
+
+🔐 11. Constraints and Integrity
+PRIMARY KEY: Unique identifier for records in a table
+
+FOREIGN KEY: Ensuring referential integrity between tables
+
+UNIQUE: Ensuring all values in a column are unique
+
+CHECK: Enforcing valid data ranges or conditions
+
+NOT NULL: Ensuring a column does not accept NULL values
+
+DEFAULT: Providing default values for columns
+
+🛠️ 12. Transactions
+BEGIN TRANSACTION, COMMIT, ROLLBACK: Starting and controlling transactions
+
+ACID Properties: Atomicity, Consistency, Isolation, Durability
+
+SAVEPOINT: Setting a savepoint to roll back to a specific point in a transaction
+
+💡 13. Advanced SQL Features
+Stored Procedures: Writing reusable SQL code
+
+Triggers: Automatically executing SQL code in response to events (INSERT, UPDATE, DELETE)
+
+Views: Creating virtual tables for simplified queries
+
+User-Defined Functions (UDFs): Custom functions for reusable logic
+
+Temporary Tables: Creating temporary tables for session use
+
+📈 14. Data Backup & Restoration
+BACKUP DATABASE: Creating backups of a database
+
+RESTORE DATABASE: Restoring a database from a backup
+
+💻 15. SQL Security
+GRANT: Giving permissions to users
+
+REVOKE: Removing permissions from users
+
+Roles: Assigning permissions to groups of users
+
+Encryption: Protecting sensitive data at rest and in transit

@@ -1,0 +1,124 @@
+Here's a structured overview of Kubernetes (K8s) topics — ideal for learning from scratch, preparing for certifications like CKA (Certified Kubernetes Administrator), or mastering container orchestration in production environments.
+
+🧱 1. Kubernetes Basics
+What is Kubernetes?
+
+Kubernetes vs Docker
+
+Architecture Overview:
+
+Master Components: API Server, Scheduler, Controller Manager, etcd
+
+Node Components: kubelet, kube-proxy, container runtime
+
+Cluster setup: Minikube, kubeadm, kind, managed (EKS, GKE, AKS)
+
+📦 2. Core Concepts
+Pods (basic deployable unit)
+
+ReplicaSets (ensures a specified number of pod replicas)
+
+Deployments (manages ReplicaSets)
+
+Namespaces (virtual clusters within a physical cluster)
+
+Labels & Selectors (used for grouping)
+
+Annotations (metadata)
+
+🏗️ 3. Workload Management
+DaemonSets (one pod per node)
+
+StatefulSets (for stateful apps like databases)
+
+Jobs and CronJobs (batch/recurring tasks)
+
+Horizontal Pod Autoscaler (HPA)
+
+Init Containers and Sidecars
+
+📡 4. Networking
+Kubernetes Networking Model
+
+ClusterIP, NodePort, LoadBalancer Services
+
+DNS in Kubernetes
+
+Ingress and Ingress Controllers
+
+Network Policies (security rules for traffic)
+
+📁 5. Storage
+Volumes (emptyDir, hostPath, configMap, secret, etc.)
+
+Persistent Volumes (PV)
+
+Persistent Volume Claims (PVC)
+
+StorageClasses
+
+Dynamic provisioning
+
+🔐 6. Security & Access Control
+RBAC (Role-Based Access Control)
+
+Service Accounts
+
+Network Policies
+
+Pod Security Standards (Baseline, Restricted)
+
+Secrets and ConfigMaps (for injecting configs/secrets into pods)
+
+🛠️ 7. Configuration & Management
+kubectl CLI basics
+
+YAML manifests: Structure and writing
+
+Helm (package manager for Kubernetes)
+
+Kustomize (built-in tool for customizing manifests)
+
+📈 8. Monitoring & Logging
+Liveness & Readiness Probes
+
+Prometheus + Grafana (metrics)
+
+ELK / EFK Stack (logging)
+
+Kubernetes Events
+
+Resource Limits & Requests
+
+🔄 9. Updates & Maintenance
+Rolling updates
+
+Rollbacks
+
+Taints & Tolerations (for controlling pod placement)
+
+Draining & cordoning nodes
+
+☁️ 10. Cloud & CI/CD Integration
+Kubernetes on AWS (EKS), Azure (AKS), GCP (GKE)
+
+GitOps (ArgoCD, FluxCD)
+
+Integrating with Jenkins, GitHub Actions, etc.
+
+Custom Resource Definitions (CRDs) & Operators
+
+📜 11. Advanced Topics
+Custom Controllers
+
+API Aggregation Layer
+
+Admission Controllers
+
+Webhooks
+
+Multi-cluster management
+
+Service Mesh (Istio, Linkerd)
+
+

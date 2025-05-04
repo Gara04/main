@@ -1,0 +1,43 @@
+Here’s a list of essential Terraform commands, organized by function, to help you manage infrastructure effectively:
+
+🚀 Getting Started
+Command	Description
+terraform init	Initialize a Terraform project (downloads provider plugins, sets up state)
+terraform version	Show Terraform version
+terraform fmt	Format Terraform code properly
+terraform validate	Check configuration for syntax and logic errors
+
+📦 Plan & Apply Infrastructure
+Command	Description
+terraform plan	Show what will be created/changed/destroyed
+terraform apply	Apply the plan and provision infrastructure
+terraform apply -auto-approve	Apply without asking for confirmation
+terraform destroy	Destroy all managed infrastructure
+terraform destroy -auto-approve	Destroy without confirmation
+
+📄 State Management
+Command	Description
+terraform show	Show the current state
+terraform state list	List resources in state
+terraform state show <resource>	Show details of a specific resource
+terraform state rm <resource>	Remove a resource from the state file
+
+🧠 Workspaces (for environments)
+Command	Description
+terraform workspace list	List all workspaces
+terraform workspace new <name>	Create a new workspace
+terraform workspace select <name>	Switch to a workspace
+
+📥 Modules & Providers
+Command	Description
+terraform get	Download modules mentioned in config
+terraform providers	Show providers used in configuration
+
+🔐 Secrets and Variables
+Command	Description
+terraform output	Show output values from state
+terraform output <name>	Show a specific output
+terraform apply -var="key=value"	Pass variable values directly
+terraform apply -var-file="vars.tfvars"	Load variable values from a file
+
+

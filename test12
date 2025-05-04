@@ -1,0 +1,171 @@
+Here’s a comprehensive list of AWS topics, organized by category — useful for learning, certification prep (like AWS Certified Cloud Practitioner, Solutions Architect, SysOps, or DevOps), or mastering AWS services:
+
+☁️ 1. Core AWS Concepts
+What is AWS?
+
+AWS Global Infrastructure: Regions, Availability Zones, Edge Locations
+
+AWS Free Tier
+
+AWS Shared Responsibility Model
+
+Well-Architected Framework
+
+💻 2. Compute Services
+EC2 (Elastic Compute Cloud): instances, AMIs, EBS, instance types
+
+Auto Scaling & Launch Templates
+
+Elastic Load Balancer (ELB)
+
+AWS Lambda (Serverless compute)
+
+Amazon ECS / Fargate (Containers)
+
+EKS (Elastic Kubernetes Service)
+
+Lightsail (simplified compute platform)
+
+Elastic Beanstalk
+
+🗄️ 3. Storage
+Amazon S3: buckets, storage classes, lifecycle policies, versioning
+
+Amazon EBS: volume types, snapshots
+
+Amazon EFS: elastic file storage
+
+Amazon FSx (Windows & Lustre)
+
+Glacier / Glacier Deep Archive
+
+Storage Gateway
+
+🛢️ 4. Databases
+Amazon RDS (MySQL, PostgreSQL, SQL Server, etc.)
+
+Amazon Aurora
+
+Amazon DynamoDB (NoSQL)
+
+Amazon Redshift (Data warehousing)
+
+Amazon ElastiCache
+
+Database Migration Service (DMS)
+
+🌐 5. Networking & Content Delivery
+VPC (Virtual Private Cloud)
+
+Subnets, Route Tables, Internet Gateway, NAT Gateway
+
+Security Groups vs NACLs
+
+Elastic IPs
+
+VPC Peering & Transit Gateway
+
+Direct Connect
+
+CloudFront (CDN)
+
+Route 53 (DNS & routing)
+
+🔐 6. Security & Identity
+IAM (Users, Groups, Roles, Policies)
+
+IAM Identity Center (SSO)
+
+Organizations & Service Control Policies (SCPs)
+
+AWS KMS (Key Management Service)
+
+AWS Secrets Manager / Parameter Store
+
+AWS Shield & WAF
+
+Amazon GuardDuty
+
+Amazon Inspector
+
+AWS Config
+
+📦 7. Developer Tools / DevOps
+CodeCommit (Git)
+
+CodePipeline
+
+CodeBuild
+
+CodeDeploy
+
+CloudFormation
+
+AWS CDK (Cloud Development Kit)
+
+Elastic Beanstalk
+
+Terraform on AWS
+
+📊 8. Monitoring & Logging
+Amazon CloudWatch
+
+CloudWatch Logs, Metrics, Alarms, Dashboards
+
+AWS CloudTrail
+
+AWS Config
+
+AWS X-Ray (Tracing)
+
+🧠 9. Machine Learning & AI
+Amazon SageMaker
+
+Amazon Rekognition (image/video analysis)
+
+Amazon Comprehend
+
+Amazon Lex (chatbots)
+
+Amazon Polly (text-to-speech)
+
+AWS Transcribe, Translate
+
+📈 10. Analytics & Big Data
+Amazon Athena
+
+Amazon EMR
+
+Amazon Kinesis
+
+AWS Glue (ETL)
+
+Amazon QuickSight
+
+🧰 11. Migration & Hybrid Cloud
+AWS Migration Hub
+
+AWS Application Discovery Service
+
+Server Migration Service (SMS)
+
+Database Migration Service (DMS)
+
+AWS Snowball / Snowmobile
+
+AWS Outposts
+
+AWS CloudEndure
+
+🧾 12. Billing, Pricing, and Support
+Cost Explorer
+
+Budgets
+
+Billing Dashboard
+
+Trusted Advisor
+
+AWS Marketplace
+
+Support Plans

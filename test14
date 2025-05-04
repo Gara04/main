@@ -1,0 +1,152 @@
+Here’s a comprehensive list of Power BI topics to guide your learning, help with certification (like DA-100), or strengthen your skills in data analysis and reporting.
+
+📊 1. Power BI Overview
+What is Power BI?
+
+Components of Power BI: Power BI Desktop, Power BI Service, Power BI Mobile
+
+Power BI Desktop: Main tool for creating reports
+
+Power BI Service: Web-based service for sharing, collaboration, and distribution
+
+Power BI Mobile: Mobile app for accessing reports on the go
+
+🔌 2. Data Connection & Import
+Data Sources: Connecting to Excel, SQL Server, Azure, Web, SharePoint, APIs, etc.
+
+DirectQuery vs. Import Mode
+
+Power Query Editor: Data transformation and cleaning
+
+Remove duplicates, filter rows, add calculated columns
+
+Merge and append queries
+
+Handling missing data
+
+🔎 3. Data Modeling
+Tables, Columns, and Relationships
+
+Data Model Views: Relationships view, data view, and report view
+
+Normalization and Denormalization
+
+Relationships: One-to-one, one-to-many, many-to-many
+
+Star Schema vs. Snowflake Schema
+
+DAX (Data Analysis Expressions): Basic functions (SUM, AVERAGE, COUNT), date/time functions, logical functions, and more
+
+🔧 4. Data Transformation (Power Query)
+Power Query M Language: Basic syntax and functions
+
+Data Types and Data Conversion
+
+Transformations: Filter rows, replace values, split/merge columns, group data
+
+Appended Queries: Combining tables with similar structures
+
+Pivot/Unpivot: Reshape data for analysis
+
+Custom Functions: Creating reusable transformation logic
+
+📊 5. Visualization in Power BI
+Charts: Bar, Line, Pie, Area, Combo, and Waterfall charts
+
+Tables and Matrix Visuals: Showing data in tabular format
+
+Maps: Basic, filled, and ArcGIS maps for geospatial analysis
+
+Cards and KPIs: Displaying key metrics in simple visuals
+
+Slicers: Interactive filters for reports
+
+Bookmarks and Selections: Creating dynamic and interactive reports
+
+Conditional Formatting: Highlight data points based on values
+
+📈 6. DAX (Data Analysis Expressions)
+Basic DAX: SUM, AVERAGE, COUNTROWS
+
+Calculated Columns vs. Measures
+
+Row Context vs. Filter Context
+
+Time Intelligence Functions: DATESYTD, DATEDIFF, SAMEPERIODLASTYEAR, etc.
+
+CALCULATE and FILTER functions
+
+IF statements and logical functions
+
+ALL, ALLEXCEPT, VALUES for manipulating filters
+
+🧰 7. Power BI Service
+Publishing Reports to Power BI Service
+
+Workspaces: Organizing and managing reports
+
+Datasets: Creating, scheduling refresh, and managing datasets
+
+Sharing and Collaboration: Sharing dashboards, reports, and datasets
+
+Data Refresh: Configure scheduled data refreshes
+
+Power BI Apps: Creating and consuming apps
+
+Power BI Gateway: Managing on-premises data access
+
+📤 8. Power BI Security
+Row-Level Security (RLS): Configuring and applying security filters
+
+Power BI Service Security: Managing access and permissions
+
+Azure Active Directory Integration for user authentication
+
+🛠️ 9. Advanced Features
+Custom Visuals: Importing and using custom visuals from AppSource
+
+Parameters: Dynamic filtering and report interaction
+
+Bookmarks & Selections Pane: Creating report navigation and interactivity
+
+Power BI Embedded: Embedding Power BI reports in external applications
+
+Q&A: Natural language querying within Power BI
+
+Power Automate Integration: Automating workflows in Power BI
+
+💡 10. Reporting & Dashboards
+Creating Dashboards: Pinning tiles from reports to dashboards
+
+Report Filters: Page-level, visual-level, and report-level filters
+
+Performance Analyzer: Optimizing report performance
+
+Themes: Customizing report colors, fonts, and layout using JSON themes
+
+Tooltips: Adding tooltips for better insights
+
+📊 11. Power BI with Excel
+Power BI Publisher for Excel
+
+Power Query in Excel: Import and transform data
+
+Excel as a Data Source for Power BI reports
+
+Power BI and Excel Integration: Exporting data, using Power Pivot models
+
+📈 12. Power BI Integration
+Power BI and Azure: Using Azure Data Services (SQL Database, Data Lake, Synapse Analytics) with Power BI
+
+Power BI and SQL Server: Connecting to and importing data from SQL Server
+
+Power BI API: Automating tasks using the Power BI REST API
+
+Power BI and R/Python: Running scripts inside Power BI reports
+
+📑 13. Power BI Mobile
+Mobile Report Design: Optimizing reports for mobile view
+
+Power BI Mobile App: Accessing and sharing reports on mobile devices
+
+Push Notifications: Setting up alerts for key metrics

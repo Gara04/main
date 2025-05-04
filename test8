@@ -1,0 +1,50 @@
+Here’s a handy list of commonly used Git Bash commands, organized by purpose:
+
+📁 Repository Setup & Configuration
+Command	Description
+git init	Initialize a new Git repository
+git clone <url>	Clone a repository from GitHub
+git config --global user.name "Your Name"	Set your Git username
+git config --global user.email "you@example.com"	Set your Git email
+git remote -v	Show remote URLs
+
+📄 Working with Files
+Command	Description
+git status	Show changes (staged, unstaged, untracked)
+git add filename	Stage a specific file
+git add .	Stage all changes
+git commit -m "Message"	Commit staged changes
+git rm filename	Delete a file and stage the removal
+git mv oldname newname	Rename or move a file
+
+🌐 Remote Operations
+Command	Description
+git push origin main	Push to the remote repository
+git pull	Fetch and merge from the remote repo
+git fetch	Download changes without merging
+git remote add origin <url>	Link local repo to a GitHub repo
+
+🌿 Branching
+Command	Description
+git branch	List branches
+git branch <name>	Create a new branch
+git checkout <name>	Switch to a branch
+git checkout -b <name>	Create and switch to a branch
+git merge <branch>	Merge a branch into the current one
+git branch -d <name>	Delete a branch
+
+📦 Stashing
+Command	Description
+git stash	Save uncommitted changes temporarily
+git stash list	View stashes
+git stash pop	Apply and remove latest stash
+git stash apply	Apply latest stash without removing
+
+🕵️‍♂️ History & Inspection
+Command	Description
+git log	View commit history
+git diff	Show unstaged changes
+git diff --staged	Show staged changes
+git show <commit>	Show changes in a specific commit
+
+

@@ -1,0 +1,149 @@
+Here’s a comprehensive list of Azure topics organized by domain—ideal for learning, certification prep (like AZ-104, AZ-900, AZ-305), or mastering cloud architecture:
+
+🌐 1. Core Azure Concepts
+What is Azure?
+
+Azure regions, availability zones
+
+Resource Groups
+
+Azure Resource Manager (ARM)
+
+Azure Portal, CLI, PowerShell, Cloud Shell
+
+☁️ 2. Azure Compute
+Virtual Machines (VMs)
+
+VM sizing, disks, availability sets, scale sets
+
+App Services (Web Apps, API Apps)
+
+Azure Functions (Serverless)
+
+Azure Container Instances
+
+Azure Kubernetes Service (AKS)
+
+Azure Batch
+
+📦 3. Azure Storage
+Blob Storage (Hot, Cool, Archive tiers)
+
+File Storage (SMB/NFS)
+
+Queue Storage
+
+Table Storage
+
+Storage account types (Standard, Premium, GPv2, etc.)
+
+Azure Data Lake Storage
+
+🗃️ 4. Azure Databases
+Azure SQL Database
+
+SQL Managed Instance
+
+Cosmos DB (NoSQL)
+
+Azure Database for MySQL/PostgreSQL
+
+Azure Synapse Analytics
+
+Database Migration Services
+
+🧠 5. Azure Networking
+Virtual Networks (VNets)
+
+Subnets, Network Security Groups (NSGs)
+
+Azure Firewall, DDoS Protection
+
+VPN Gateway, ExpressRoute
+
+Azure Load Balancer
+
+Application Gateway & WAF
+
+Azure DNS, Traffic Manager
+
+Private Link & Endpoints
+
+🔐 6. Identity & Security
+Azure Active Directory (AAD)
+
+AAD B2B/B2C
+
+Role-Based Access Control (RBAC)
+
+Managed Identities
+
+Conditional Access
+
+Azure Key Vault
+
+Defender for Cloud
+
+Microsoft Entra (Identity Governance)
+
+🛠️ 7. DevOps & Automation
+Azure DevOps (Pipelines, Repos, Boards)
+
+GitHub Actions for Azure
+
+ARM Templates
+
+Terraform on Azure
+
+Bicep language
+
+Azure Automation
+
+Logic Apps
+
+🧪 8. Monitoring & Management
+Azure Monitor
+
+Log Analytics
+
+Azure Application Insights
+
+Azure Advisor
+
+Cost Management + Billing
+
+Azure Policy
+
+Azure Blueprints
+
+Service Health & Alerts
+
+📈 9. AI, ML & Analytics
+Azure Machine Learning
+
+Azure Cognitive Services
+
+Azure Bot Services
+
+Azure Synapse
+
+Azure Databricks
+
+Power BI Integration
+
+🧰 10. Miscellaneous / Advanced
+Azure Arc (hybrid/multi-cloud)
+
+Azure Lighthouse (multi-tenant management)
+
+Azure Stack (on-prem Azure)
+
+Azure Site Recovery (Disaster Recovery)
+
+Azure Migrate
+
+Azure Purview (Data Governance)
+
+Compliance and regulatory offerings
+
+
