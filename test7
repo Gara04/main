@@ -1,0 +1,54 @@
+Here are common Git commands to get you started with version control:
+
+🔧 Basic Git Setup
+bash
+Copy
+Edit
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+📁 Repository Initialization
+bash
+Copy
+Edit
+git init                   # Initialize a new Git repository
+📄 Staging & Committing Files
+bash
+Copy
+Edit
+git status                # Show current status
+git add filename          # Stage a specific file
+git add .                 # Stage all files
+git commit -m "Message"   # Commit staged changes
+🌐 Working with Remote Repositories
+bash
+Copy
+Edit
+git remote add origin https://github.com/user/repo.git  # Add remote
+git push -u origin main                                 # Push to main branch
+📥 Cloning and Pulling
+bash
+Copy
+Edit
+git clone https://github.com/user/repo.git   # Clone a repo
+git pull                                     # Pull latest changes
+🔄 Branching
+bash
+Copy
+Edit
+git branch                    # List branches
+git branch new-branch         # Create new branch
+git checkout new-branch       # Switch to a branch
+git checkout -b new-branch    # Create + switch
+🔁 Merging
+bash
+Copy
+Edit
+git checkout main
+git merge new-branch
+🧹 Undoing Changes
+bash
+Copy
+Edit
+git restore filename         # Discard local changes
+git reset HEAD filename      # Unstage a file
+git reset --hard             # Danger: resets all changes

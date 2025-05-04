@@ -1,0 +1,73 @@
+Learning Microsoft Azure fully involves understanding a mix of cloud fundamentals, hands-on skills, and certifications. Here's a complete roadmap to help you go from beginner to advanced in Azure:
+
+🧭 1. Cloud & Azure Fundamentals
+Learn the basics of:
+What is Cloud Computing?
+
+IaaS, PaaS, SaaS
+
+Regions & Availability Zones
+
+Azure Portal and CLI
+
+🎓 Recommended:
+Azure Fundamentals (AZ-900) – great starting point
+
+📘 Study Resources:
+Microsoft Learn - AZ-900
+
+Free Azure sandbox at Microsoft Learn
+
+🏗️ 2. Core Azure Services
+Learn the essential building blocks of Azure:
+
+Compute: Azure VMs, App Services, Azure Functions
+
+Networking: Virtual Networks, NSGs, Load Balancer, VPN Gateway
+
+Storage: Blob, File, Queue, Table Storage
+
+Databases: Azure SQL, Cosmos DB, Azure Database for PostgreSQL/MySQL
+
+🛠️ 3. Infrastructure as Code (IaC)
+Learn how to manage Azure using:
+
+Terraform or ARM Templates
+
+Bicep (Azure-native IaC language)
+
+🔐 4. Security & Identity
+Azure Active Directory (AAD)
+
+Role-Based Access Control (RBAC)
+
+Managed Identities
+
+Key Vault
+
+🧠 5. Monitoring, Logging, and Automation
+Azure Monitor
+
+Log Analytics
+
+Application Insights
+
+Azure Automation
+
+🚀 6. DevOps on Azure
+Azure DevOps (Repos, Pipelines, Boards, Artifacts)
+
+GitHub Actions with Azure
+
+CI/CD pipelines for deployments
+
+☁️ 7. Advanced Services
+Kubernetes: AKS (Azure Kubernetes Service)
+
+Serverless: Durable Functions, Logic Apps
+
+Data Services: Azure Synapse, Data Factory
+
+AI/ML: Azure Machine Learning, Cognitive Services
+
+
